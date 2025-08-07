@@ -76,3 +76,57 @@ img{
 .border_img7{
     border:8px groove red;
 }
+
+
+
+
+.images{
+    border: 10px solid red;
+    padding: 50px;
+    margin: 20px;
+}
+.text{
+    border: 5px solid brown;
+    padding: 10px 50px 10px 50px;
+}
+.images2{
+    border: 10px solid gray;
+    padding: 40px;
+    margin: 40px;
+    box-shadow: 3px 4px 4px 3px black;
+}
+.text2{
+    border: 5px solid rgb(74, 5, 5);
+    padding: 40px 60px 40px 60px;
+}
+
+
+
+.linear{
+    height: 500px;
+    background:linear-gradient(black,white,black);
+}
+.heading1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 190px;
+    color: red;
+}
+.linear2{
+    height: 500px;
+    background:linear-gradient(yellow,white,yellow);
+}
+.heading2{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 190px;
+    color: red;
+}
+.radial{
+    height: 680px;
+    background:radial-gradient(circle,yellow,blue,red);
+}
+.conic{
+    height: 680px;
+    background:conic-gradient(from 90deg,red,yellow,brown,blue);
+}
