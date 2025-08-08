@@ -1,0 +1,38 @@
+.hall{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    top: 60px;
+    left: 150px;
+}
+#tv{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: black;
+    top: 10px;
+    left: 120px;
+}
+#sofa{
+    position: absolute;
+    height: 50px;
+    width: 180px;
+    background-color:rosybrown;
+    top: 70px;
+    left: 60px;
+}
+#table{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color:chartreuse;
+    bottom: 50px;
+    left: 90px;
+}
+#door{
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    background-color: brown;
+}
