@@ -1,0 +1,28 @@
+h1{
+    color: black;
+}
+h1:hover{
+    color: brown;
+}
+img:hover{
+    border: 10px solid black;
+}
+input:focus{
+   background-color: cadetblue;
+}
+a:visited{
+    color: red;
+}
+h1:active{
+    color: red;
+}
+p::first-letter{
+    color: blue;
+}
+P::first-line{
+    color: rgb(222, 209, 89);
+}
+::selection{
+    background-color: yellowgreen;
+    color: aqua;
+}
