@@ -1,0 +1,82 @@
+.box{
+    background-color: aquamarine;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    color: rgb(34, 28, 21);
+    text-align: center;
+    font-size:20px ;
+    transition: transform 4s ease;
+    border: 3px solid black;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+
+    justify-items: center;
+    list-style: none;
+
+}
+.box1:hover{
+    transform: translate(100px,100px);
+}
+.box2:hover{
+    transform: translateX(100px);
+}
+.box3:hover{
+    transform: translateY(100px);
+}
+.box4:hover{
+    transform: rotate(360deg);
+}
+.box5:hover{
+    transform: skewX(30deg);
+}
+.box6:hover{
+    transform: skewY(30deg);
+}
+.box7:hover{
+    transform: skew(30deg,30deg);
+}
+.box8:hover{
+    transform: scale(1.5);
+}
+.box9:hover{
+    transform: scale(0.8) rotate(30px,30px) ;
+}
+
+.img-wrapper1{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    position: relative;
+    overflow: hidden;
+
+}
+.inner-img1{
+  width: 100%;
+  height: 100%;
+  transition: 3s;
+}
+.inner-img1:hover{
+    transform: scale(1.5) skew(30deg,30deg);
+}
+.img-wrapper2{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    position: relative;
+    overflow: hidden;
+
+}
+.inner-img2{
+  width: 100%;
+  height: 100%;
+  transition: 3s;
+}
+.inner-img2:hover{
+    transform: rotate(180deg);
+}
