@@ -1,0 +1,39 @@
+.box{
+    background-color: aquamarine;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    color: rgb(34, 28, 21);
+    text-align: center;
+    font-size:20px ;
+    transition: transform 4s ease;
+    border: 3px solid black;
+   
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    list-style: none;
+ 
+
+}
+.box1:hover{
+    transform: rotateY(180deg);
+}
+.box2:hover{
+    transform: rotateX(180deg);
+}
+.box3:hover{
+    transform: rotateY(180deg) skew(30deg);
+}
+.box4:hover{
+    transform: rotateX(180deg) skew(30deg);
+}
+.box5:hover{
+    transform: rotateX(180deg) skew(30deg) translate(-85px,-85px);
+}
+

@@ -33,13 +33,13 @@
     transform: rotate(360deg);
 }
 .box5:hover{
-    transform: skewX(30deg);
+    transform: skewX(180deg);
 }
 .box6:hover{
-    transform: skewY(30deg);
+    transform: skewY(180deg);
 }
 .box7:hover{
-    transform: skew(30deg,30deg);
+    transform: skew(180deg,180deg);
 }
 .box8:hover{
     transform: scale(1.5);
