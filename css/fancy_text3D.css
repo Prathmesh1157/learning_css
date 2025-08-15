@@ -9,7 +9,6 @@
 
 .text-container>b{
     height: 80px;
-    
     background: linear-gradient(rgb(2, 158, 2),rgb(135, 190, 249),rgb(234, 153, 4));
     background-clip: text;
     color: transparent;
